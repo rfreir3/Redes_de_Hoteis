@@ -4,5 +4,5 @@
 int main(){
     Hotel* h = add_hotel();
     
-    return(0);
+    return 0;
 }

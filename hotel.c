@@ -24,8 +24,8 @@ Hotel* add_hotel(void){
     scanf("%s", novo->nome);
     printf("Digite a localidade do hotel: ");
     scanf("%s", novo->local);
-    printf("Digite a quantidade de estrelas do hotel (entre 0 e 4): ");
-    scanf("%d", &novo->stars);
+    printf("Digite a quantidade de estrelas do hotel (entre 0 e 4) ");
+    scanf("%i", &novo->stars);
     return(novo);
 }
 
