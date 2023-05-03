@@ -1,7 +1,17 @@
 typedef struct hotel Hotel;
 
-typedef struct quartos Quartos;
+typedef struct lista Lista;
 
-Hotel *add_hotel(void);
-//adiciona um hotel à lista de hoteis existentes
+Hotel *add_hotel();
 
+Lista *insere_hotel(Lista *lista, Hotel *cont);
+
+Lista *excluir_hotel(Lista *lista);
+
+void listar_hotel(Lista *lista);
+
+void listartxt(Lista *lista);
+
+void buscar_hotel(Lista* lista);
+
+Lista *editar_hotel(Lista *lista);
